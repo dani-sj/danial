@@ -322,98 +322,99 @@ This command will send text to [group_id]
     help_text = [[
 Commands list :
 
-اخراج [username|id]
-You can also do it by reply
+!kick [username|id]
+حذف از گروه
 
-بن [ username|id]
-You can also do it by reply
+!ban [ username|id]
+حذف و فرد دیگر نمیتواند به گروه باز گردد
 
 !unban [id]
-You can also do it by reply
+غیر فعال کردن گزینه بن
 
 !who
-Members list
+لیست اعضای گروه
 
 !modlist
-Moderators list
+لیست مدیران
 
 !promote [username]
-Promote someone
+اضافه کردن مدیر
 
 !demote [username]
-Demote someone
+حذف درجه مدیریت
 
 !kickme
-Will kick user
+حذف من از گروه
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه و قفل عکس
 
 !setname [name]
-Set group name
+تنظیم اسم گروه
 
 !rules
-Group rules
+توضیحات گروه
 
 !id
-return group id or user id
+دریافت ایدی گروه/شما میتوانید با ریپلای ایدی اعضا خود را ببینید
 
 !help
+راهنما
 
 !lock [member|name|bots|leave]	
-Locks [member|name|bots|leaveing] 
+قفل کردن نام و اعضا و ربات و خروج
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+باز کردن اسم و اعضا و ربات و خروج
 
 !set rules <text>
-Set <text> as rules
+تنظیم متن به عنوان قوانین
 
 !set about <text>
-Set <text> as about
+تنظیم متن به عنوان قوانین
 
 !settings
-Returns group settings
+دیدن تنظیمات گروه
 
 !newlink
-create/revoke your group link
+ساخت لینک/تغییر لینک برای گروه
 
 !link
-returns group link
+دریافت لینک فعلی گروه
 
 !owner
-returns group owner id
+دیدن ایدی صاحب گروه
 
 !setowner [id]
-Will set id as owner
+انتخاب فرد به عنوان مدیر اصلی گروه
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم عدد حذف فرد اسپمر
 
 !stats
-Simple message statistics
+دریافت امار گروه در قالب فایل
 
 !save [value] <text>
-Save <text> as [value]
+افزدون یک متن
 
 !get [value]
-Returns text of [value]
+نشان دادن متن های ذخیره شده 
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+حذف کردن مدیران/قوانین و درباره
 
 !res [username]
-returns user id
+دریافت ایدی فرد
 "!res @username"
 
 !log
-will return group logs
+دریافت اتفاقات گروه در قالب فایل
 
 !banlist
-will return group ban list
+نمایش لیست اعضای بن شده در قالب متن
 
 **U can use both "/" and "!" 
 
